@@ -1,0 +1,26 @@
+  {
+    "name": "Web App - DataCrypto Analytics",
+		
+    "version": "1.13.3",
+    "description": "Veja os resultados dos nossos algoritmos Machine Learning",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },	
+
+	"options_page": "options.html",
+	
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+   
+
+    "icons": {
+      "128": "128.png"
+    },
+    "manifest_version": 2
+
+  }
+
+
